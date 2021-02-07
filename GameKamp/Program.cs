@@ -14,7 +14,7 @@ namespace GameKamp
         static void Main(string[] args)
         {
             BaseCustomerManager customerManager = new PlayerCustomerManager();
-            customerManager.Save(new Customer { DateOfBirth = new DateTime(2001, 1, 16),FirstName="Aynur",LastName="Balcı",NationalityId="14204793392"});
+            customerManager.Save(new Customer { DateOfBirth = new DateTime(2001, 1, 16),FirstName="Aynur",LastName="Balcı",NationalityId="12"});
             Console.ReadLine();
 
         }
